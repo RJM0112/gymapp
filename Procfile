@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web:gunicorn healthpredict0112:app
