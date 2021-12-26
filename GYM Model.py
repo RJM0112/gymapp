@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 import numpy as np
 from sklearn import datasets
@@ -43,7 +41,6 @@ metrics.confusion_matrix(expected, predicted)
 import pickle
 
 pickle.dump(model_GYM, open("Model_GYM.pkl", "wb"))
-
 model = pickle.load(open("Model_GYM.pkl", "rb"))
 
 print(model.predict([[40,5.6,70]]))
