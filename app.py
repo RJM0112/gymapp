@@ -34,7 +34,7 @@ def home():
     pred = model.predict(arr)
     return render_template('after.html',data=pred)
 
-from portal import app
+from portal import app as application
 
 if __name__ == "__main__":
     app.run(debug=True)
