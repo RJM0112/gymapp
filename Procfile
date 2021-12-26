@@ -1,1 +1,1 @@
-web: gunicorn gymapp0112:app
+web: gunicorn gymapp0112.app
