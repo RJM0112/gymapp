@@ -1,1 +1,1 @@
-web: uwsgi uwsgi.ini
+web: gunicorn gymapp0112:app
