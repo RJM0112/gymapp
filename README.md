@@ -1,2 +1,1 @@
-# Gymapp
-Building gym app
+# Heroku-Demo
